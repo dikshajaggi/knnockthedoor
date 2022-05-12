@@ -1,0 +1,1005 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+}
+
+
+/*---------general----------*/
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/*---------nav----------*/
+
+nav {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav .centered {
+    text-align: center;
+    display: flex;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    display: none;
+    float: right;
+    font-size: 24px;
+}
+
+
+.dropdown {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin-top: 32%;
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 4px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*---------section1----------*/
+
+.section1 {
+    clear: both;
+    width: 100%;
+    height: 1076px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section1 button {
+    background-color: #0069FF;
+    border: none;
+    height: 46px;
+    width: 335px;
+    border-radius: 10px;
+}
+
+.section1 button a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.section1 img {
+    height: 500px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.section1 h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 28px;
+}
+
+.section1 p {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0A2A42;
+}
+
+.section1img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
+
+.section1img img {
+    width: 80%;
+}
+
+
+/*---------section2----------*/
+
+.section2 {
+    clear: both;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2 h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 28px;
+}
+
+.section2 p {
+    margin-top: 4%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0A2A42;
+}
+
+.container1 {
+    margin-top: 2%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 33.33%
+}
+
+.card {
+    clear: both;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 1%;
+    height: 227px;
+    width: 40%;
+    background-color: #F1F1F1;
+    margin: 10px;
+}
+
+.card a {
+    color: #0249FF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card p {
+    color: #0A2A42;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card h4 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#knnock {
+    font-size: 24px;
+    color: #2ABDA3;
+    font-weight: 600;
+}
+
+
+/*---------section3----------*/
+
+.why {
+    width:100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background-color: #F1F1F1;
+    color: #0A2A42;
+    height: 100%;
+}
+
+.why .data {
+    padding: 2% 0;
+    margin: auto;
+    width: 80%;
+}
+
+.why h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.why p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.data span {
+    font-weight: 700;
+}
+
+.section3 .container2 {
+    clear: both;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0px 0px 64px;
+    position: absolute;
+    height: 100%;
+}
+
+.container2-head {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.container2-head h1 {
+    margin-bottom: 2%;
+    margin-top: 6%;
+}
+
+.keyPoints {
+    clear: both;
+    display: flex;
+    align-items: center;
+    height: auto;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: 0px 58px 48px 150px;
+}
+
+#kp1 {
+    margin-top: 48px;
+}
+
+.points {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 39px 24px 39px 24px;
+    height: 100%;
+}
+
+.points h4 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.points p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/*-----------section4----------*/
+
+.section4 {
+    clear: both;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section4 .box1 {
+    height: 318px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 span {
+    color: #0249FF
+}
+
+.box1 h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.box1 button {
+    color: #0249FF;
+    width: 143px;
+    height: 46px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ffffff;
+    Padding: 3px, 28px, 3px, 28px;
+    border: 2px solid #0249FF;
+    border-radius: 10px;
+}
+
+.box2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box2 h1 {
+    font-weight: 700px;
+    font-size: 48px;
+}
+
+.box2 .caseStudies {
+    margin: 0% 2%;
+    height: 100%;
+}
+
+.box2 .caseStudies p {
+    margin-top: 24px;
+}
+
+.box2 .caseStudies .cases p {
+    margin-top: 8px;
+}
+
+.box2 .caseStudies #cases1 {
+    margin-top: 24px;
+}
+
+.box2 .caseStudies .cases {
+    margin-top: 32px;
+}
+
+.cases a {
+    color: #0249FF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.box2 .cases h4 {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.cases p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.cases a {
+    font-weight: 600;
+    font-weight: 14px;
+}
+
+
+/*-------section5---------*/
+
+.section5 {
+    clear: both;
+    margin: 4% 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.faq {
+    width:20%;
+    padding-right: 4%;
+}
+
+.questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+.questions .que {
+    margin-bottom: 32px;
+    padding-right: 4%;
+}
+
+.que h4 {
+    font-size: 24px;
+}
+
+.que p {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer {
+    width: 90%;
+    margin: auto;
+    flex: 25%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #678398;
+}
+
+.logo img {
+    margin-bottom: 16px;
+}
+
+.logo {
+    font-size: 14;
+    font-weight: 500;
+}
+
+.col h4 {
+    margin-bottom: 16px;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.col li {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        transition: all 0.3s ease-out;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .h-class {
+        height: 24vh;
+    }
+
+    .centered {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%
+    }
+
+    .section1 {
+        height: 55vh;
+    }
+
+    .section1img img {
+        height: 50vh;
+    }
+
+    .section1 h1 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .section1 p {
+        font-size: 8px;
+    }
+
+    .section1img img {
+        height: 180px;
+        width: 330px;
+    }
+
+    .section1 button {
+        height: 20px;
+        width: 170px;
+    }
+
+    .section1 button a {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .box1 button {
+        width: 144px;
+        height: 40px;
+        padding: 8px 16px;
+        font-size: 8px;
+    }
+
+    .section2 h1 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .section2 p {
+        font-size: 8px;
+        margin: 0 6%;
+    }
+
+    #knnock {
+        font-size: 18px;
+    }
+
+    .container1 {
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 50%;
+        gap: 0%;
+    }
+
+    .card {
+        margin: 32px;
+        height: 102px;
+        width: 130px;
+    }
+
+    .card img {
+        height: 14px;
+        width: 14px;
+    }
+
+    .card a {
+        font-size: 8px;
+    }
+
+    .card p {
+        font-size: 8px;
+    }
+
+    .card h4 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .container2-head h1 {
+        font-size: 18px;
+        padding: 0 6%;
+    }
+
+    .container2-head p {
+        font-size: 12px;
+        padding: 0 6%;
+    }
+
+    .why h1 {
+        font-size: 20px;
+    }
+
+    .why p {
+        font-size: 16px;
+    }
+
+    .box2 {
+        flex-direction: column-reverse;
+        padding: 8%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section5 {
+        padding: 4%;
+        display: flex;
+        padding-top: 4%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .illustration img {
+        margin-top: -10%;
+        height: 200px;
+        width: 200px;
+    }
+
+    .section5 .faq {
+        text-align: center;
+        padding-bottom: 4%;
+    }
+
+    .questions {
+        text-align: center;
+    }
+
+    .keyPoints {
+        flex-direction: column;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 280px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .keypoints img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .points p {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .points h4 {
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .caseStudies h1 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .box1 button {
+        display: flex;
+        align-items: center;
+        width: 88px;
+        height: 28px;
+        font-size: 11px;
+    }
+
+    .box1 h1 {
+        font-size: 12px;
+    }
+
+    .faq h1 {
+        font-size: 8px;
+    }
+
+    .box2 .cases h4,
+    .que h4 {
+        font-size: 10px;
+    }
+
+    .box2 .cases p,
+    .que p {
+        font-size: 8px;
+    }
+
+    .box2 .cases a {
+        font-size: 8px;
+    }
+
+    .footer {
+        font-size: 10px;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 331px;
+    }
+
+    .footer #col1 {
+        margin-left: 35px;
+    }
+
+    .footer #col3 {
+        margin-left: 36px;
+    }
+
+    .col li {
+        font-size: 10px;
+    }
+
+    .footer .logo {
+        width: 161px;
+    }
+
+    .col {
+        margin: 2%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    nav a {
+        font-size: 10px;
+        }
+    .section1 h1 {
+        font-size: 30px;
+        font-weight: 700;
+        padding: 0 6%;
+    }
+
+    .section1 p {
+        font-size: 18px;
+    }
+
+    .section2 h1 {
+        font-size: 30px;
+        font-weight: 700;
+        padding: 0 6%;
+    }
+
+    .section2 p {
+        font-size: 16px;
+        margin: 0 6%;
+    }
+
+    #knnock {
+        font-size: 20px;
+    }
+
+    .illustration img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .container1 {
+        flex: 50%;
+    }
+
+    .card {
+        width: 40%;
+        padding: 2%;
+    }
+
+    .card img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .card a {
+        font-size: 12px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .card h4 {
+        font-size: 18px;
+    }
+
+    .why h1 {
+        font-size: 30px;
+    }
+
+    .why p {
+        font-size: 22px;
+    }
+
+    .box2 {
+        flex-direction: column-reverse;
+    }
+
+    .section5 {
+        padding-top: 4%;
+        padding-left: 4%;
+        flex-direction: column;
+    }
+
+    .section5 .faq {
+        padding-bottom: 4%;
+        padding-left: 6%;
+    }
+
+    .section5 .questions {
+        padding: 0 6%;
+    }
+
+    .container2-head h1 {
+        font-size: 24px;
+        padding: 0 6%;
+    }
+
+    .container2-head p {
+        font-size: 14px;
+        padding: 0 6%;
+    }
+
+    .keyPoints {
+        width: 85%;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .points {
+        width: 100%;
+    }
+
+    .points h4 {
+        font-size: 22px;
+    }
+
+    .points p {
+        font-size: 16px;
+    }
+
+    .caseStudies h1 {
+        font-size: 24px;
+    }
+
+    .box1 h1,
+    .faq h1 {
+        font-size: 24px;
+    }
+
+    .box2 .cases h4,
+    .que h4 {
+        font-size: 22px;
+    }
+
+    .box2 .cases p,
+    .que p {
+        font-size: 16px;
+    }
+
+    .footer {
+        width: 80%;
+        flex-wrap: wrap;
+        flex: 50%;
+        justify-content: space-between;
+    }
+    .col h4 {
+    font-size: 10px;
+    }
+
+    .col li {
+    font-size: 10px;
+    }
+    .logo p{
+        font-size: 12px;
+    }
+    .illustration img {
+        width: 340px;
+        height: 310px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    nav a {
+            font-size: 18px;
+        }
+    .keyPoints {
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+    }
+
+    .points h4 {
+        font-size: 18px;
+    }
+
+    .points p {
+        font-size: 14px;
+    }
+
+    footer {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .section5 {
+        flex-direction: row;
+    }
+
+    .box2 {
+        flex-direction: row;
+    }
+
+    .illustration img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .section1img img {
+        width: 80%;
+        height: 100%;
+    }
+
+    .card {
+        height: 227px;
+        width: 340px;
+    }
+
+    .container1 {
+        margin-top: 2%;
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 33.33%
+    }
+
+    .why h1 {
+        font-size: 48px;
+    }
+
+    .why p {
+        font-size: 24px;
+    }
+
+    .keyPoints {
+        height: auto;
+    }
+
+    .points {
+        height: 100%;
+    }
+
+    .points h4 {
+        font-size: 24px;
+    }
+
+    .points p {
+        font-size: 18px;
+    }
+
+    .container2-head h1 {
+        font-size: 36px;
+        padding: 0 6%;
+    }
+
+    .container2-head p {
+        font-size: 24px;
+        padding: 0 6%;
+    }
+    .col h4 {
+            font-size: 16px;
+        }
+    
+    .col li {
+            font-size: 18px;
+        }
+    .logo p{
+        font-size: 22px;
+    }
+}
